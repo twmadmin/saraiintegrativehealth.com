@@ -1,0 +1,26 @@
+{
+  "name": "saraiintegrativehealth.co",
+  "version": "1.0.0",
+  "authors": [
+    "Dustin Harrell <doostinharrell@gmail.com>"
+  ],
+  "description": "A custom Foundation Zurb based website for Sarai Integrative Health built and designed by <a href='https://dustinharrell.com'>Dustin Harrell</a>.",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "~6.3.0",
+    "motion-ui": "~1.2.2"
+  },
+  "private": true,
+  "devDependencies": {
+    "font-awesome": "fontawesome#^4.6.3",
+    "smoothscroll-for-websites": "^1.4.4"
+  }
+}
