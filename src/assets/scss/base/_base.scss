@@ -13,15 +13,22 @@
 	}
 }
 
+
 // Utility Classes
 .no-padding {
 	padding: 0;
 }
+
 .no-margin {
 	margin: 0;
 }
 
+
 // Base Styles
+body {
+	background: $body-background url(../img/bg--pattern.png) repeat;
+}
+
 h1, h2, h3 {
 	color: $blue;
 }

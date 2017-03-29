@@ -26,6 +26,9 @@ header.header {
 .logo {
 	font-family: $header-font-family;
 	font-size: 2rem;
+	@include breakpoint(medium) {
+		font-size: 3rem;
+	}
 	@include breakpoint(large) {
 		font-size: 4rem;
 	}
@@ -35,6 +38,9 @@ header.header {
 	font-family: $header-font-family;
 	color: $white;
 	font-size: 1rem;
+	@include breakpoint(medium) {
+		font-size: 1.375rem;
+	}
 	@include breakpoint(large) {
 		font-size: 1.75rem;
 	}
