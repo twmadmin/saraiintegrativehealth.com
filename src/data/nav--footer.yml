@@ -5,6 +5,7 @@
 -
   name: "Contact"
   url: "contact"
+  relative: true
   icon: "paper-plane"
 -
   name: "Google"

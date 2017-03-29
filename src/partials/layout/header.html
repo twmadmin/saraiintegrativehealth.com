@@ -10,7 +10,7 @@
 		<div id="responsive-menu">
 			<ul class="dropdown menu text-center" data-responsive-menu="drilldown medium-dropdown">
 				{{#each nav--primary}}
-				<li><a href="{{root}}/{{ this.url }}"><i class="fa fa-{{ this.icon }}"></i>{{ this.name }}</a></li>
+				<li><a href="{{#if this.relative}}{{ root }}{{/if}}{{ this.url }}"><i class="fa fa-{{ this.icon }}"></i>{{ this.name }}</a></li>
 				{{/each}}
 			</ul>
 		</div>

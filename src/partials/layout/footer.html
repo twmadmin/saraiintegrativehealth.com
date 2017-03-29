@@ -4,7 +4,7 @@
 			<nav class="nav--footer menu-centered">
 				<ul class="menu">
 					{{#each nav--footer}}
-					<li><a href="{{root}}/{{ this.url }}"><i class="fa fa-2x fa-{{ this.icon }}"></i></a></li>
+					<li><a href="{{#if this.relative}}{{ root }}{{/if}}{{ this.url }}"><i class="fa fa-2x fa-{{ this.icon }}"></i></a></li>
 					{{/each}}
 				</ul>
 			</nav>

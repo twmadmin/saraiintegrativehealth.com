@@ -1,14 +1,17 @@
 -
   name: "Home"
   url: ""
+  relative: true
   icon: "home"
 -
   name: "About"
   url: "about"
+  relative: true
   icon: "user-md"
 -
   name: "Contact"
   url: "contact"
+  relative: true
   icon: "paper-plane"
 -
   name: "1-828-338-0660"
