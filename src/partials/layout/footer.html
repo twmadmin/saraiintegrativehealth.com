@@ -1,0 +1,16 @@
+<footer class="footer">
+	<div class="row">
+		<div class="columns small-12 medium-12 large-12">
+			<nav class="nav--footer menu-centered">
+				<ul class="menu">
+					{{#each nav--footer}}
+					<li><a href="{{root}}/{{ this.url }}"><i class="fa fa-2x fa-{{ this.icon }}"></i></a></li>
+					{{/each}}
+				</ul>
+			</nav>
+			<p class="text-center copyright">
+				Copright 2017 Sarai Integrative Health
+			</p>
+		</div>
+	</div>
+</footer>

@@ -67,7 +67,13 @@ $fa-font-path: "../../assets/fonts" !default;
 
 // Base Styles
 @import "base/base";
+@import "base/typography";
+@import "base/forms";
 
 // Layout Styles
+@import "layout/header";
+@import "layout/footer";
 
 // Module Styles
+@import "modules/nav--primary";
+@import "modules/nav--footer";

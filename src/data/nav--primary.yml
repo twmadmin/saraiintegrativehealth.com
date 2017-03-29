@@ -1,0 +1,16 @@
+-
+  name: "Home"
+  url: ""
+  icon: "home"
+-
+  name: "About"
+  url: "about"
+  icon: "user-md"
+-
+  name: "Contact"
+  url: "contact"
+  icon: "paper-plane"
+-
+  name: "1-828-338-0660"
+  url: "tel:+18283380660"
+  icon: "phone"

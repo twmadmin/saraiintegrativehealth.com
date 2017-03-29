@@ -1,0 +1,41 @@
+header.header {
+	position: relative;
+	background: url(../img/banner--trees.jpg) no-repeat center center;
+	background-size: cover;
+	&:after {
+		position: absolute;
+		z-index: 0;
+		top: 0;
+		left: 0;
+		content: '';
+		height: 100%;
+		width: 100%;
+		background: rgba($black, .6);
+	}
+}
+
+.header__content {
+	position: relative;
+	z-index: 1;
+	padding: 2rem;
+	@include breakpoint(large) {
+		padding: 2rem 0 7rem 0;
+	}
+}
+
+.logo {
+	font-family: $header-font-family;
+	font-size: 2rem;
+	@include breakpoint(large) {
+		font-size: 4rem;
+	}
+}
+
+.slogan {
+	font-family: $header-font-family;
+	color: $white;
+	font-size: 1rem;
+	@include breakpoint(large) {
+		font-size: 1.75rem;
+	}
+}

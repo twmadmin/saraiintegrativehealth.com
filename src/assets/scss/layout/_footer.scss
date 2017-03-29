@@ -1,0 +1,9 @@
+footer.footer {
+	overflow: hidden;
+	background: $dark-gray;
+	color: $medium-gray;
+	.copyright {
+		font-size: $small-font-size;
+		margin: .5rem 0 0 0;
+	}
+}

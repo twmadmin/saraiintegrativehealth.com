@@ -1,0 +1,18 @@
+<header class="header text-center">
+	<div class="header__content">
+		<div class="logo"><a href="{{root}}" title="Home">Sarai Integrative Health</a></div>
+		<div class="slogan">Lifestyle and Wellness Counseling</div>
+	</div>
+	<nav class="nav--primary">
+		<div data-responsive-toggle="responsive-menu" data-hide-for="medium">
+			<button class="menu-icon" type="button" data-toggle></button>
+		</div>
+		<div id="responsive-menu" class="menu-centered">
+			<ul class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
+				{{#each nav--primary}}
+				<li><a href="{{root}}/{{ this.url }}"><i class="fa fa-{{ this.icon }}"></i>{{ this.name }}</a></li>
+				{{/each}}
+			</ul>
+		</div>
+	</nav>
+</header>
