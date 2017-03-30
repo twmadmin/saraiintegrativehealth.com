@@ -1,7 +1,7 @@
 <header class="header text-center">
 	<div class="header__content">
 		<div class="logo"><a href="{{root}}" title="Home">Sarai Integrative Health</a></div>
-		<div class="slogan">Lifestyle and Wellness Counseling</div>
+		<div class="slogan">Lifestyle and Wellness Counseling with Sumandeep Sarai Groh MD</div>
 	</div>
 	<nav class="nav--primary">
 		<div data-responsive-toggle="responsive-menu" data-hide-for="medium">
@@ -10,7 +10,7 @@
 		<div id="responsive-menu">
 			<ul class="dropdown menu text-center" data-responsive-menu="drilldown medium-dropdown">
 				{{#each nav--primary}}
-				<li><a href="{{#if this.relative}}{{ root }}{{/if}}{{ this.url }}"><i class="fa fa-{{ this.icon }}"></i>{{ this.name }}</a></li>
+					<li><a class="{{ this.class }}" href="{{ this.url }}" target="{{ this.target }}"><i class="fa fa-{{ this.icon }}"></i>{{ this.name }}</a></li>
 				{{/each}}
 			</ul>
 		</div>

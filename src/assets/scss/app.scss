@@ -66,6 +66,7 @@ $fa-font-path: "../../assets/fonts" !default;
 @import "mixins/mixins";
 
 // Base Styles
+@import "base/animations";
 @import "base/base";
 @import "base/typography";
 @import "base/forms";

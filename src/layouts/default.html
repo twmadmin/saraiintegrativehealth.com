@@ -11,12 +11,18 @@
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
   </head>
   <body>
-    {{> header}}
+    <div class="loader">
+      <i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="page">
+      {{> header}}
 
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    {{> body}}
+      {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+      {{> body}}
 
-    {{> footer}}
+      {{> footer}}
+    </div>
     <script src="{{root}}assets/js/app.js"></script>
   </body>
 </html>

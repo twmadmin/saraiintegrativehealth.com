@@ -1,0 +1,9 @@
+html:not(.no-js) {
+	body {
+		background-color: $blue;
+	}
+	.page {
+		@include mui-animation(fade(0, 1), slide(in, down, 1%));
+		animation-duration: 1s;
+	}
+}

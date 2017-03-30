@@ -21,6 +21,22 @@
 	}
 }
 
+// removes outlines added by browser default styles
+@mixin remove-outline() {
+	outline: none;
+	outline-color: transparent;
+	outline-style: none;
+	-webkit-appearance: none;
+	-webkit-tap-highlight-color: transparent;
+	&:focus {
+		outline: none;
+		outline-color: transparent;
+		outline-style: none;
+		-webkit-appearance: none;
+		-webkit-tap-highlight-color: transparent;
+	}
+}
+
 // transition mixin
 @mixin transition($args: all .25s ease-in-out) {
 	-webkit-transition: $args;
@@ -45,6 +61,7 @@
 	-webkit-transform: $transforms;
 	transform: $transforms;
 }
+
 // rotate
 @mixin rotate($deg) {
 	@include transform(rotate(#{$deg}deg));

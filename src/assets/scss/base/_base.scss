@@ -23,14 +23,21 @@
 	margin: 0;
 }
 
-
 // Base Styles
-body {
+.page {
+	position: relative;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
 	background: $body-background url(../img/bg--pattern.png) repeat;
 }
 
-h1, h2, h3 {
+h1 {
 	color: $blue;
+}
+
+h2, h3 {
+	color: $medium-gray;
 }
 
 hr {
@@ -39,4 +46,19 @@ hr {
 	width: 100%;
 	background: lighten($dark-gray, 60%);
 	border: none;
+}
+
+// Namespaces and re-usable classes
+.loader {
+	@include absolute-center;
+	z-index: 0;
+	color: $white;
+}
+.map {
+	border: 1px solid lighten($dark-gray, 60%);
+}
+.description {
+	margin: .5rem 0;
+	font-size: $small-font-size;
+	color: $medium-gray;
 }
