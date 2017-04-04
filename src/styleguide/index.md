@@ -131,29 +131,47 @@ As you've probably noticed in the examples above, you have access to a small, me
 
 ---
 
-<div class="row up-1 medium-up-3 large-up-5">
+<div class="row up-1 small-up-1 medium-up-3 large-up-5">
   <div class="column">
     <div class="color-block">
-      <span style="background: #2199e8"></span>
-      #2199e8
+      <span style="background: #7dccc0"></span>
+      #7dccc0
     </div>
   </div>
   <div class="column">
     <div class="color-block">
-      <span style="background: #3adb76"></span>
-      #3adb76
+      <span style="background: #767676"></span>
+      #767676
     </div>
   </div>
   <div class="column">
     <div class="color-block">
-      <span style="background: #ffae00"></span>
-      #ffae00
+      <span style="background: #c8b3a1"></span>
+      #c8b3a1
     </div>
   </div>
   <div class="column">
     <div class="color-block">
-      <span style="background: #ec5840"></span>
-      #ec5840
+      <span style="background: #f4f1ee"></span>
+      #f4f1ee
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #e6e6e6"></span>
+      #e6e6e6
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #908c8b"></span>
+      #908c8b
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #464646"></span>
+      #464646
     </div>
   </div>
   <div class="column">
@@ -162,13 +180,19 @@ As you've probably noticed in the examples above, you have access to a small, me
       #0a0a0a
     </div>
   </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #fefefe"></span>
+      #fefefe
+    </div>
+  </div>
 </div>
 
 
 
 # Typography
 
-<p class="lead">This design uses Helvetica Neue for headings and paragraph text.</p>
+<p class="lead">This design uses Amatic SC for headings and Quasimoda Light for paragraph text.</p>
 
 ---
 
@@ -290,28 +314,26 @@ Form elements in Foundation are styled based on their type attribute rather than
 
 ```html_example
 <form>
-  <div class="row">
+  <div class="row no-padding">
     <div class="large-12 columns">
       <label>Label</label>
       <input type="text" placeholder="placeholder">
     </div>
   </div>
-  <div class="row">
+  <div class="row no-padding">
     <div class="large-6 columns">
       <label>Label</label>
       <input type="text" placeholder="placeholder">
     </div>
     <div class="large-6 columns">
-      <div class="row collapse">
-        <label>Label</label>
-        <div class="input-group">
-          <input class="input-group-field" type="text" placeholder="placeholder">
-          <span class="input-group-label">.com</span>
-        </div>
+      <label>Label</label>
+      <div class="input-group">
+        <input class="input-group-field" type="text" placeholder="placeholder">
+        <span class="input-group-label">.com</span>
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row no-padding">
     <div class="large-12 columns">
       <label>Select Box</label>
       <select>
@@ -321,7 +343,7 @@ Form elements in Foundation are styled based on their type attribute rather than
       </select>
     </div>
   </div>
-  <div class="row">
+  <div class="row no-padding">
     <div class="large-6 columns">
       <label>Choose Your Favorite</label>
       <input type="radio" name="radio1" value="radio1" id="radio1"><label for="radio1">Red</label>
@@ -333,23 +355,11 @@ Form elements in Foundation are styled based on their type attribute rather than
       <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
     </div>
   </div>
-  <div class="row">
+  <div class="row no-padding">
     <div class="large-12 columns">
       <label>Textarea Label</label>
-      <textarea placeholder="placeholder"></textarea>
+      <textarea rows=5 placeholder="placeholder"></textarea>
     </div>
   </div>
 </form>
-```
-
-
-
-# New Section
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora omnis suscipit id ut laborum recusandae molestias hic aliquid **expedita!** [Non dicta](zurb.com), autem obcaecati error, id ab voluptate unde culpa nulla.
-
-```html_example
-<a href="#" class="button">Button</a>
-<a href="#" class="button">Button</a>
-<a href="#" class="button">Button</a>
 ```

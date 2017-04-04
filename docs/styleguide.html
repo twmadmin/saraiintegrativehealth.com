@@ -57,31 +57,29 @@
     </style>
   </head>
   <body>
-
-    <div class="column row">
-      <h1>Client Style Guide</h1>
-      <p class="lead">This style guide was built with Foundation for Sites. For more information on how to use this responsive front-end framework, check out the documentation, get help from the Foundation community, or request immediate technical support.</p>
-      <a href="http://foundation.zurb.com/docs/" class="button">Visit the Docs</a>
-      <a href="http://foundation.zurb.com/forum/" class="secondary button">Foundation Forum</a>
-      <a href="http://foundation.zurb.com/business/business-support.html" class="secondary button">Technical Support</a>
-    </div>
-
-    <div class="column row"><div class="row collapse">
-
-      <div class="large-3 medium-4 columns" data-sticky-container>
-        <ul class="vertical menu">
-            <li><a href="#the-grid">The Grid</a></li>
-            <li><a href="#colors">Colors</a></li>
-            <li><a href="#typography">Typography</a></li>
-            <li><a href="#buttons">Buttons</a></li>
-            <li><a href="#forms">Forms</a></li>
-            <li><a href="#new-section">New Section</a></li>
-        </ul>
+    <div class="page">
+      <div class="column row collapse">
+        <h1>SaraiIntegrativeHealth.com Style Guide</h1>
+        <p class="lead">This style guide was built with Foundation for Sites. For more information on how to use this responsive front-end framework, check out the documentation, get help from the Foundation community, or request immediate technical support.</p>
+        <a href="http://foundation.zurb.com/docs/" class="button">Visit the Docs</a>
+        <a href="http://foundation.zurb.com/forum/" class="secondary button">Foundation Forum</a>
+        <a href="http://foundation.zurb.com/business/business-support.html" class="secondary button">Technical Support</a>
       </div>
 
-      <div class="large-9 medium-8 columns">
-          <section class="ss-section" id="the-grid">
-            <h1>The Grid</h1><p class="lead">Problem: You&#39;ve got tons of content, each needing different sized vertical columns, and don&#39;t know how to quick and easily get it all done. Solution: The awesome grid!</p>
+      <div class="column row collapse">
+        <div class="small-12 medium-4 large-3 columns" id="sidebar" data-sticky-container>
+          <ul class="vertical menu pb-4" data-sticky data-anchor="main" data-margin-top="0">
+              <li><a href="#the-grid">The Grid</a></li>
+              <li><a href="#colors">Colors</a></li>
+              <li><a href="#typography">Typography</a></li>
+              <li><a href="#buttons">Buttons</a></li>
+              <li><a href="#forms">Forms</a></li>
+          </ul>
+        </div>
+
+        <div class="small-12 medium-8 large-9 columns" id="main">
+            <section class="ss-section" id="the-grid">
+              <h1>The Grid</h1><p class="lead">Problem: You&#39;ve got tons of content, each needing different sized vertical columns, and don&#39;t know how to quick and easily get it all done. Solution: The awesome grid!</p>
 
 <hr>
 <h2>Overview</h2><p>The grid is built around two key elements: rows and columns. Rows create a max-width and contain the columns, and columns create the final structure. Everything on your page that you don&#39;t give a specific structural style to should be within a row or column.</p>
@@ -171,34 +169,52 @@
   <div class="small-3 columns">3</div>
   <div class="small-9 columns">9, last</div>
 </div>
-          </section>
-          <section class="ss-section" id="colors">
-            <h1>Colors</h1><p class="lead">Below you can find the different values we created that support the primary color variable you can change at any time in <code>_settings.scss</code></p>
+            </section>
+            <section class="ss-section" id="colors">
+              <h1>Colors</h1><p class="lead">Below you can find the different values we created that support the primary color variable you can change at any time in <code>_settings.scss</code></p>
 
 <hr>
-<div class="row up-1 medium-up-3 large-up-5">
+<div class="row up-1 small-up-1 medium-up-3 large-up-5">
   <div class="column">
     <div class="color-block">
-      <span style="background: #2199e8"></span>
-      #2199e8
+      <span style="background: #7dccc0"></span>
+      #7dccc0
     </div>
   </div>
   <div class="column">
     <div class="color-block">
-      <span style="background: #3adb76"></span>
-      #3adb76
+      <span style="background: #767676"></span>
+      #767676
     </div>
   </div>
   <div class="column">
     <div class="color-block">
-      <span style="background: #ffae00"></span>
-      #ffae00
+      <span style="background: #c8b3a1"></span>
+      #c8b3a1
     </div>
   </div>
   <div class="column">
     <div class="color-block">
-      <span style="background: #ec5840"></span>
-      #ec5840
+      <span style="background: #f4f1ee"></span>
+      #f4f1ee
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #e6e6e6"></span>
+      #e6e6e6
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #908c8b"></span>
+      #908c8b
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #464646"></span>
+      #464646
     </div>
   </div>
   <div class="column">
@@ -207,10 +223,16 @@
       #0a0a0a
     </div>
   </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #fefefe"></span>
+      #fefefe
+    </div>
+  </div>
 </div>
-          </section>
-          <section class="ss-section" id="typography">
-            <h1>Typography</h1><p class="lead">This design uses Helvetica Neue for headings and paragraph text.</p>
+            </section>
+            <section class="ss-section" id="typography">
+              <h1>Typography</h1><p class="lead">This design uses Amatic SC for headings and Quasimoda Light for paragraph text.</p>
 
 <hr>
 <h2>Headings</h2><p>Headings are used to denote different sections of content, usually consisting of related paragraphs and other HTML elements. They range from h1 to h6 and should be styled in a clear hierarchy (i.e., largest to smallest)</p>
@@ -236,9 +258,9 @@
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quibusdam ratione sunt dolorum, qui illo maxime doloremque accusantium cum libero eum, a optio odio placeat debitis ullam aut non distinctio.</p>
 
-          </section>
-          <section class="ss-section" id="buttons">
-            <h1>Buttons</h1><p class="lead">Buttons are tied to an action of some kind, whether that button is on a cheese dispenser or launches the rocket that you&#39;re strapped to. On the web, we follow similar conventions.</p>
+            </section>
+            <section class="ss-section" id="buttons">
+              <h1>Buttons</h1><p class="lead">Buttons are tied to an action of some kind, whether that button is on a cheese dispenser or launches the rocket that you&#39;re strapped to. On the web, we follow similar conventions.</p>
 
 <hr>
 <h2>Primary Buttons</h2><p>These buttons are primary calls to action and should be used sparingly. Their size can be adjusted with the <code>.tiny</code>, <code>.small</code>, and <code>.large</code> classes.</p>
@@ -261,9 +283,9 @@
 <a href="#" class="secondary button">Regular button</a>
 <a href="#" class="secondary small button">Small button</a>
 <a href="#" class="secondary tiny button">Tiny button</a></div>
-          </section>
-          <section class="ss-section" id="forms">
-            <h1>Forms</h1><p class="lead">Use forms to allow users to interact with the site and provide information to the company.</p>
+            </section>
+            <section class="ss-section" id="forms">
+              <h1>Forms</h1><p class="lead">Use forms to allow users to interact with the site and provide information to the company.</p>
 
 <hr>
 <h2>Elements of a Form</h2><p>A form should be marked up using its default HTML properties. The ones we make use of include (in hierarchical order):</p>
@@ -292,28 +314,26 @@
 </ul>
 <hr>
 <h2>Form Example</h2><div class="ss-code"><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">form</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row no-padding"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"large-12 columns"</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>Label<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"text"</span> <span class="hljs-attribute">placeholder</span>=<span class="hljs-value">"placeholder"</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row no-padding"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"large-6 columns"</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>Label<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"text"</span> <span class="hljs-attribute">placeholder</span>=<span class="hljs-value">"placeholder"</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"large-6 columns"</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row collapse"</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>Label<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"input-group"</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"input-group-field"</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"text"</span> <span class="hljs-attribute">placeholder</span>=<span class="hljs-value">"placeholder"</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"input-group-label"</span>&gt;</span>.com<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>Label<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"input-group"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"input-group-field"</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"text"</span> <span class="hljs-attribute">placeholder</span>=<span class="hljs-value">"placeholder"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"input-group-label"</span>&gt;</span>.com<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
       <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row no-padding"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"large-12 columns"</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>Select Box<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-title">select</span>&gt;</span>
@@ -323,7 +343,7 @@
       <span class="hljs-tag">&lt;/<span class="hljs-title">select</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row no-padding"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"large-6 columns"</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>Choose Your Favorite<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"radio"</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"radio1"</span> <span class="hljs-attribute">value</span>=<span class="hljs-value">"radio1"</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"radio1"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">label</span> <span class="hljs-attribute">for</span>=<span class="hljs-value">"radio1"</span>&gt;</span>Red<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
@@ -335,37 +355,35 @@
       <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"checkbox2"</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"checkbox"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">label</span> <span class="hljs-attribute">for</span>=<span class="hljs-value">"checkbox2"</span>&gt;</span>Checkbox 2<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row no-padding"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"large-12 columns"</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>Textarea Label<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-title">textarea</span> <span class="hljs-attribute">placeholder</span>=<span class="hljs-value">"placeholder"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">textarea</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">textarea</span> <span class="hljs-attribute">rows</span>=<span class="hljs-value">5</span> <span class="hljs-attribute">placeholder</span>=<span class="hljs-value">"placeholder"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">textarea</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-title">form</span>&gt;</span></code></pre></div>
 
 <div class="ss-code-live"><form>
-  <div class="row">
+  <div class="row no-padding">
     <div class="large-12 columns">
       <label>Label</label>
       <input type="text" placeholder="placeholder">
     </div>
   </div>
-  <div class="row">
+  <div class="row no-padding">
     <div class="large-6 columns">
       <label>Label</label>
       <input type="text" placeholder="placeholder">
     </div>
     <div class="large-6 columns">
-      <div class="row collapse">
-        <label>Label</label>
-        <div class="input-group">
-          <input class="input-group-field" type="text" placeholder="placeholder">
-          <span class="input-group-label">.com</span>
-        </div>
+      <label>Label</label>
+      <div class="input-group">
+        <input class="input-group-field" type="text" placeholder="placeholder">
+        <span class="input-group-label">.com</span>
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row no-padding">
     <div class="large-12 columns">
       <label>Select Box</label>
       <select>
@@ -375,7 +393,7 @@
       </select>
     </div>
   </div>
-  <div class="row">
+  <div class="row no-padding">
     <div class="large-6 columns">
       <label>Choose Your Favorite</label>
       <input type="radio" name="radio1" value="radio1" id="radio1"><label for="radio1">Red</label>
@@ -387,28 +405,17 @@
       <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
     </div>
   </div>
-  <div class="row">
+  <div class="row no-padding">
     <div class="large-12 columns">
       <label>Textarea Label</label>
-      <textarea placeholder="placeholder"></textarea>
+      <textarea rows=5 placeholder="placeholder"></textarea>
     </div>
   </div>
 </form></div>
-          </section>
-          <section class="ss-section" id="new-section">
-            <h1>New Section</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora omnis suscipit id ut laborum recusandae molestias hic aliquid <strong>expedita!</strong> <a href="zurb.com">Non dicta</a>, autem obcaecati error, id ab voluptate unde culpa nulla.</p>
-<div class="ss-code"><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"button"</span>&gt;</span>Button<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"button"</span>&gt;</span>Button<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"button"</span>&gt;</span>Button<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span></code></pre></div>
-
-<div class="ss-code-live"><a href="#" class="button">Button</a>
-<a href="#" class="button">Button</a>
-<a href="#" class="button">Button</a></div>
-          </section>
+            </section>
+        </div>
       </div>
-
-    </div></div>
-
+    </div>
     <script src="assets/js/app.js"></script>
   </body>
 </html>

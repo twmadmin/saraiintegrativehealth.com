@@ -1,3 +1,7 @@
 button, a.button {
 	font-family: $header-font-family;
 }
+
+button.primary, a.button.primary {
+	color: $white;
+}
