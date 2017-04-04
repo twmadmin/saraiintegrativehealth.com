@@ -18,12 +18,20 @@ header.header {
 	position: relative;
 	z-index: 1;
 	padding: 2rem;
-	@include breakpoint(large) {
-		padding: 2rem 0 7rem 0;
-	}
 }
 
 .logo {
+	height: auto;
+	max-width: 2rem;
+	@include breakpoint(medium) {
+		max-width: 3.5rem;
+	}
+	@include breakpoint(large) {
+		max-width: 5rem;
+	}
+}
+
+.site-name {
 	font-family: $header-font-family;
 	font-size: 2rem;
 	@include breakpoint(medium) {
