@@ -4,7 +4,7 @@ nav.nav--primary {
 	font-family: $header-font-family;
 	background: rgba($dark-gray, .6);
 	li {
-		@include breakpoint(medium) {
+		@include breakpoint(large) {
 			display: inline-block;
 		}
 	}
@@ -23,7 +23,7 @@ nav.nav--primary {
 		@include remove-outline();
 		padding: 0 .75rem;
 		margin: 1rem 0;
-		@include breakpoint(medium) {
+		@include breakpoint(large) {
 			opacity: 0;
 		}
 		&.active {
@@ -53,7 +53,7 @@ nav.nav--primary {
 	position: absolute;
 	background: $dark-gray;
 	width: 100%;
-	@include breakpoint(medium) {
+	@include breakpoint(large) {
 		position: relative;
 		background: transparent;
 		width: auto;

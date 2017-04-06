@@ -8,9 +8,14 @@
   url: "/about"
   icon: "user-md"
 -
-  name: "Contact"
-  url: "/contact"
+  name: "Appointments"
+  url: "/appointments"
   icon: "paper-plane"
+-
+  name: "Directions"
+  url: "https://goo.gl/ifNv2p"
+  target: "_blank"
+  icon: "map"
 -
   name: "1-828-338-0660"
   url: "tel:+18283380660"

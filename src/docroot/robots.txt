@@ -1,0 +1,19 @@
+#
+# robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+Sitemap: https://saraiintegrativehealth.com/sitemap.xml
+
+User-agent: *
+
+# Disallow following of listed urls
+Disallow: /contact/
+Disallow: /contact/index.html
+
+# 301 redirects for SEO purposes
+Redirect 301 /index.html /
+Redirect 301 /about/index.html /about/
+Redirect 301 /contact/index.html /appointments/
+Redirect 301 /appointments/index.html /appointments/

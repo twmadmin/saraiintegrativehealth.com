@@ -4,16 +4,16 @@
 			<img class="logo" src="{{root}}assets/img/logo.png" alt="Logo" />
 			<div class="site-name">Sarai Integrative Health</div>
 		</a>
-		<div class="slogan">Lifestyle and Wellness Counseling with Sumandeep Sarai Groh MD</div>
+		<div class="slogan">Sumandeep Sarai Groh MD</div>
 	</div>
 	<nav class="nav--primary">
-		<div data-responsive-toggle="responsive-menu" data-hide-for="medium">
+		<div data-responsive-toggle="responsive-menu" data-hide-for="large">
 			<button class="menu-icon" type="button" data-toggle></button>
 		</div>
 		<div id="responsive-menu">
-			<ul class="dropdown menu text-center" data-responsive-menu="drilldown medium-dropdown">
+			<ul class="dropdown menu text-center" data-responsive-menu="drilldown large-dropdown">
 				{{#each nav--primary}}
-					<li><a class="{{ this.class }}" href="{{ this.url }}" target="{{ this.target }}"><i class="fa fa-{{ this.icon }}"></i>{{ this.name }}</a></li>
+					<li><a title="{{ this.name }}" class="{{ this.class }}" href="{{ this.url }}" target="{{ this.target }}"><i class="fa fa-{{ this.icon }}"></i>{{ this.name }}</a></li>
 				{{/each}}
 			</ul>
 		</div>

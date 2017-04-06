@@ -24,7 +24,23 @@
 	margin: 0;
 }
 
+.stupid-big {
+	font-size: 5rem;
+	@include breakpoint(medium) {
+		font-size: 7.5rem;
+	}
+	@include breakpoint(large) {
+		font-size: 10rem;
+	}
+}
+
 // Base Styles
+html.error {
+	background: $body-background url(../img/bg--pattern.png) repeat;
+	body {
+		background: transparent;
+	}
+}
 .page {
 	position: relative;
 	z-index: 1;

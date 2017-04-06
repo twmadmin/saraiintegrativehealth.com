@@ -1,0 +1,20 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js error" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{root}}assets/img/favicon.ico" type="image/vnd.microsoft.icon"/>
+    <title>{{#if title}}{{title}}{{else}}Sarai Integrative Health | Sumandeep Sarai Groh MD{{/if}}</title>
+    <meta name="description" content="{{#if description}}{{description}}{{else}}Sumandeep Sarai Groh MD with Sarai Integrative Health offers lifestyle and wellness counseling services to Asheville North Carolina and surrounding areas.{{/if}}" />
+    <meta name="robots" content="{{#if robots}}{{robots}}{{else}}follow, index{{/if}}" />
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+  </head>
+  <body>
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    {{> body}}
+    <script src="{{root}}assets/js/app.js"></script>
+  </body>
+</html>

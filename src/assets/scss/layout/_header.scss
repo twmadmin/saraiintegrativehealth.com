@@ -22,9 +22,9 @@ header.header {
 
 .logo {
 	height: auto;
-	max-width: 2rem;
+	max-width: 3rem;
 	@include breakpoint(medium) {
-		max-width: 3.5rem;
+		max-width: 4rem;
 	}
 	@include breakpoint(large) {
 		max-width: 5rem;
@@ -45,11 +45,11 @@ header.header {
 .slogan {
 	font-family: $header-font-family;
 	color: $white;
-	font-size: 1rem;
+	font-size: 1.25rem;
 	@include breakpoint(medium) {
-		font-size: 1.25rem;
+		font-size: 1.5rem;
 	}
 	@include breakpoint(large) {
-		font-size: 1.5rem;
+		font-size: 1.75rem;
 	}
 }
