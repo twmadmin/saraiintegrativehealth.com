@@ -193,6 +193,8 @@ As you've probably noticed in the examples above, you have access to a small, me
 # Typography
 
 <p class="lead">This design uses Amatic SC for headings and Quasimoda Light for paragraph text.</p>
+- Download Amatic SC (https://www.fontsquirrel.com/fonts/amatic)
+- Download Quasimoda Light (https://www.fontsquirrel.com/fonts/quasimoda)
 
 ---
 
