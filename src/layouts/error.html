@@ -11,8 +11,10 @@
     <meta name="description" content="{{#if description}}{{description}}{{else}}Sumandeep Sarai Groh MD with Sarai Integrative Health offers lifestyle and wellness counseling services to Asheville North Carolina and surrounding areas.{{/if}}" />
     <meta name="robots" content="{{#if robots}}{{robots}}{{else}}follow, index{{/if}}" />
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    {{> google-tag-manager--head}}
   </head>
   <body>
+    {{> google-tag-manager--body}}
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
     {{> body}}
     <script src="{{root}}assets/js/app.js"></script>
