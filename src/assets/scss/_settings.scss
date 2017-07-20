@@ -46,10 +46,10 @@
 // 1. Global
 // ---------
 
-$global-font-size: 125%;
+$global-font-size: 120%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
-$blue: #7dccc0;
+$blue: #00c2f3;
 $tan: #c8b3a1;
 $light-tan: #f4f1ee;
 $light-gray: #e6e6e6;
@@ -66,7 +66,7 @@ $foundation-palette: (
 );
 $body-background: $light-tan;
 $body-font-color: $dark-gray;
-$body-font-family: 'Quasimoda Light', Roboto, Arial, sans-serif;
+$body-font-family: 'Chalet London Nineteen Sixty', Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -107,28 +107,28 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: 'Amatic SC', Roboto, Arial, sans-serif;;
+$header-font-family: 'Chalet LondonNineteenSixty', Roboto, Arial, sans-serif;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
 $header-lineheight: 1.4;
-$header-margin-bottom: 0.5rem;
+$header-margin-bottom: 1rem;
 $header-styles: (
   small: (
+    'h1': ('font-size': 32),
+    'h2': ('font-size': 28),
+    'h3': ('font-size': 24),
+    'h4': ('font-size': 20),
+    'h5': ('font-size': 18),
+    'h6': ('font-size': 16),
+  ),
+  medium: (
     'h1': ('font-size': 36),
     'h2': ('font-size': 30),
     'h3': ('font-size': 22),
     'h4': ('font-size': 20),
-    'h5': ('font-size': 18),2
-    'h6': ('font-size': 16),
-  ),
-  medium: (
-    'h1': ('font-size': 48),
-    'h2': ('font-size': 40),
-    'h3': ('font-size': 31),
-    'h4': ('font-size': 25),
-    'h5': ('font-size': 20),
+    'h5': ('font-size': 18),
     'h6': ('font-size': 16),
   ),
 );
@@ -137,7 +137,7 @@ $medium-font-size: 90%;
 $small-font-size: 80%;
 $header-small-font-color: $medium-gray;
 $paragraph-lineheight: 1.6;
-$paragraph-margin-bottom: 1rem;
+$paragraph-margin-bottom: 1.5rem;
 $paragraph-text-rendering: optimizeLegibility;
 $code-color: $black;
 $code-font-family: $font-family-monospace;
@@ -244,7 +244,7 @@ $breadcrumbs-item-slash: true;
 // 11. Button
 // ----------
 
-$button-padding: 0.25em 1.25em;
+$button-padding: 0.5em 1.25em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
 $button-background: $primary-color;
@@ -255,8 +255,8 @@ $button-radius: $global-radius;
 $button-sizes: (
   tiny: 0.75rem,
   small: 1.25rem,
-  default: 1.75rem,
-  large: 2.25rem,
+  default: 1.25rem,
+  large: 1.5rem,
 );
 $button-palette: $foundation-palette;
 $button-opacity-disabled: 0.25;
@@ -597,7 +597,7 @@ $titlebar-color: $white;
 $titlebar-padding: 0.5rem;
 $titlebar-text-font-weight: bold;
 $titlebar-icon-color: $white;
-$titlebar-icon-color-hover: $medium-gray;
+$titlebar-icon-color-hover: $white;
 $titlebar-icon-spacing: 0.25rem;
 
 // 36. Tooltip

@@ -1,19 +1,3 @@
-header.header {
-	position: relative;
-	background: url(../img/banner--trees.jpg) no-repeat center center;
-	background-size: cover;
-	&:after {
-		position: absolute;
-		z-index: 0;
-		top: 0;
-		left: 0;
-		content: '';
-		height: 100%;
-		width: 100%;
-		background: rgba($black, .4);
-	}
-}
-
 .header__content {
 	position: relative;
 	z-index: 1;
@@ -22,35 +6,36 @@ header.header {
 
 .logo {
 	height: auto;
-	max-width: 3rem;
+	max-width: 5rem;
+	margin-bottom: 1rem;
 	@include breakpoint(medium) {
-		max-width: 4rem;
+		max-width: 6rem;
 	}
 	@include breakpoint(large) {
-		max-width: 5rem;
+		max-width: 7rem;
 	}
 }
 
 .site-name {
 	font-family: $header-font-family;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	@include breakpoint(medium) {
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 	@include breakpoint(large) {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 }
 
 .slogan {
 	font-family: $header-font-family;
-	color: $white;
-	font-size: 1.5rem;
+	color: $medium-gray;
+	font-size: 1.125rem;
 	@include breakpoint(medium) {
-		font-size: 1.75rem;
+		font-size: 1.25rem;
 	}
 	@include breakpoint(large) {
-		font-size: 2rem;
+		font-size: 1.5rem;
 
 	}
 }
